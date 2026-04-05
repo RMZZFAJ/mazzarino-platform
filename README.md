@@ -349,7 +349,7 @@ O ambiente local será documentado após o bootstrap inicial do projeto.
 Itens previstos:
 
 - Node.js
-- npm
+- pnpm
 - projeto Next.js
 - Supabase local ou remoto
 - variáveis de ambiente
@@ -366,7 +366,7 @@ Exemplos esperados:
 
 ```env
 NEXT_PUBLIC_SUPABASE_URL=
-NEXT_PUBLIC_SUPABASE_ANON_KEY=
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY=
 SUPABASE_SERVICE_ROLE_KEY=
 
 GOOGLE_CLOUD_PROJECT_ID=
